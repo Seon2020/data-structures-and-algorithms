@@ -1,5 +1,7 @@
 'use strict';
 
+const { response } = require('express');
+
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 1 - Review
 
@@ -8,6 +10,27 @@ Build a simple express server. Connect a '/hello' route that sends a greeting of
 
 const createServer = () => {
   // Solution code here...
+  const express = require('express');
+  const app = express();
+
+  app.get('/hello', (request, response) => {
+    let greeting = 'Howdy Everyone!';
+    response.status(200).send(greeting);
+  });
+
+  app.get('/aboutme', (request, response) => {
+    let bio = 'Hello, my name is Sean and I love learning how to code!';
+    response.status(200).send(bio);
+  });
+
+  app.get('/favoritefoods', (request, response) => {
+    let foodArr = ['Xiao long bao', 'ramen', 'tacos', 'fried rice'];
+    response.status(200).send(foodArr);
+  });
+
+  app.get('*', (request, response) => {
+    response.status(404).send('no route found brah!');
+  });
 
   var server = app.listen(3301, function () {
     var port = server.address().port;
@@ -43,8 +66,10 @@ For example, [[1, 2, 3, 4, 5], [6, 7, 2, 4, 5, 7], [9, 2, 3, 6,]] returns 66.
 ------------------------------------------------------------------------------------------------ */
 
 const totalSum = (input) => {
-  // Solution code here...
+  let total = input.reduce((acc, val) => acc + val.reduce((acc2, val2) => acc2 + val2, 0), 0);
+  return total;
 };
+
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 4
@@ -59,7 +84,11 @@ For example, [ [0,2,5,4], [2,4,10], [] ] should return [ [1, 32], [1024], [] ].
 ------------------------------------------------------------------------------------------------ */
 
 const divisibleByFiveTwoToThePower = (input) => {
-  // Solution code here...
+  return input.map(val => {
+    let divFive = val.filter(val2 => typeof(val2) === 'number' && val2 % 5 === 0);
+    let powerTwo = divFive.map(val3 => Math.pow(2, val3));
+    return powerTwo;
+  });
 };
 
 /* ------------------------------------------------------------------------------------------------
