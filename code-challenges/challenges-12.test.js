@@ -75,7 +75,6 @@ const errands = [
   },
   {
     store: 'Drug store',
-    items: [{ name: 'Toothpaste', quantity: 1 }, { name: 'Toothbrush', quantity: 3 }, { name: 'Mouthwash', quantity: 1 }]
   },
   {
     store: 'Pet store',
