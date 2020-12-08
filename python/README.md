@@ -2,6 +2,10 @@
 
 ## Language: `Python`
 
+## Table of Contents Code 401
+1. [Array Reverse Challenge](python/code_challenges/array_reverse/array_reverse.py)
+- [Click here for the corresponding whiteboard image](python/code_challenges/assets/array-reverse.jpg)
+
 ### Folder and Challenge Setup
 
 Each type of code challenge has slightly different instructions. Please refer to the notes and examples below for instructions for each DS&A assignment type.
