@@ -1,7 +1,7 @@
 # Data Structures and Algorithms
 
 ## Table of Contents 
-
+- (Array Reverse Challenge)[python/code_challenges/array_reverse/array_reverse.py]
 
 ## Create a copy of this repository
 
