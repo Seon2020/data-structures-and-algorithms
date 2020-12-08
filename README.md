@@ -1,5 +1,8 @@
 # Data Structures and Algorithms
 
+## Table of Contents 
+
+
 ## Create a copy of this repository
 
 If you have not already created your data-structures-and-algorithms repository, Please follow these steps:
