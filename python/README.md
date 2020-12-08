@@ -2,7 +2,7 @@
 
 ## Language: `Python`
 
-## Table of Contents Code 401
+# Table of Contents Code 401
 
 # Reverse an Array
 [Code For Array Reverse Challenge](code_challenges/array_reverse/array_reverse.py)
