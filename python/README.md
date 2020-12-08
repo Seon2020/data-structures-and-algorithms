@@ -3,8 +3,8 @@
 ## Language: `Python`
 
 ## Table of Contents Code 401
-1. [Array Reverse Challenge](python/code_challenges/array_reverse/array_reverse.py)
-- [Click here for the corresponding whiteboard image](python/code_challenges/assets/array-reverse.jpg)
+1. [Array Reverse Challenge](code_challenges/array_reverse/array_reverse.py)
+- [Click here for the corresponding whiteboard image](code_challenges/assets/array-reverse.jpg)
 
 ### Folder and Challenge Setup
 
