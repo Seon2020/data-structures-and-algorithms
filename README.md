@@ -3,6 +3,8 @@
 ## Table of Contents Code 401
 1. [Array Reverse Challenge](python/code_challenges/array_reverse/array_reverse.py)
 - [Click here for the corresponding whiteboard image](python/code_challenges/assets/array-reverse.jpg)
+2. [Array Shift Challenge](python/code_challenges/array_shift/array_shift.py)
+- [Click here for the corresponding whiteboard image](python/code_challenges/assets/codechal2.jpg)  
 
 ## Create a copy of this repository
 
