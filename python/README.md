@@ -16,3 +16,14 @@ We kept it simple by creating a function that takes in a single list as an argum
 ## Solution
 ![](code_challenges/assets/array-reverse.jpg)
 
+# Shift an Array
+[Code For Array Shift Challenge](python/code_challenges/array_shift/array_shift.py)
+
+## Challenge
+Take list as an argument and reverse it without using any built-in Python reverse functions. 
+
+## Approach & Efficiency
+We kept it simple by creating a function that takes in a single list as an argument. We decided to use slicing to reverse the list because it results in short, easy-to-read code. Big O was O(N) - grows linearly and in direct proportion to the size of the input data set. 
+
+## Solution
+![](code_challenges/assets/array-reverse.jpg)
