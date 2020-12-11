@@ -26,4 +26,4 @@ When given a list (array) as an argument, along with a single value as a second 
 We kept it simple by creating a function that takes in a list (array) and a new value to be added. We took the length of the list argument and divided by 2 to get the middle position. In case of an odd length, we then used math.ceil to ensure that length is rounded up. We then used insert() to insert the new value at the correct middle position. Finally, we returned the array with the new value. Big O was O(1) - Constant time algorithms take the same amount of time to be executed. Execution time of O(1) algorithms is independent of input size.
 
 ## Solution
-![](python/code_challenges/assets/codechal2.jpg)
+![](code_challenges/assets/codechal2.jpg)
