@@ -14,7 +14,7 @@ def binary_search_recursive(arr, x, high=0):
   """
   low = 0
   get_high(arr)
-  if x not in arr:
+  if x < arr[0] or x > arr[len(arr)-1]:
     return -1
   if high >= low: 
     mid = (high + low) // 2
@@ -48,3 +48,25 @@ def binary_search_iterative(arr, x):
       return mid 
   else:
     return -1
+
+# # Another recursive approach:
+# def binary_search(arr, x, offset=0):
+#     mid_idx = round(len(arr) / 2)
+#     mid_val = arr[mid_idx]
+
+#     if x < arr[0] or x > arr[len(arr)-1]:
+#         return -1
+
+#     if x == mid_val:
+#         return mid_idx + offset
+
+#     elif x > mid_val:
+#         new_arr = arr[mid_idx::]
+#         offset += mid_idx
+
+#     else:
+#         new_arr = arr[:mid_idx]
+    
+#     return binary_search(new_arr, x, offset)
+
+# print(binary_search([1,2,3,4,5], 4))
