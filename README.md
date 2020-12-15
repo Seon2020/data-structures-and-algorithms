@@ -5,6 +5,8 @@
 - [Click here for the corresponding whiteboard image](python/code_challenges/assets/array-reverse.jpg)
 2. [Array Shift Challenge](python/code_challenges/array_shift/array_shift.py)
 - [Click here for the corresponding whiteboard image](python/code_challenges/assets/codechal2.jpg)  
+3. [Array Binary Search Challenge](python/code_challenges/array_binary_search/array_binary_search.py)
+- [Click here for the corresponding whiteboard image](python/code_challenges/assets/array_binary_search.jpg)  
 
 ## Create a copy of this repository
 
