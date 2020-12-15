@@ -38,8 +38,6 @@ def binary_search_iterative(arr, x):
   low = 0
   mid = 0
   high = len(arr) - 1
-  if x not in arr:
-    return -1
   while low <= high: 
     mid = (high + low) // 2
     if arr[mid] < x: 
@@ -48,4 +46,5 @@ def binary_search_iterative(arr, x):
       high = mid - 1
     else: 
       return mid 
-  
+  else:
+    return -1
