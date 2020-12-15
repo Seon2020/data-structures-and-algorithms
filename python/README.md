@@ -32,10 +32,10 @@ We kept it simple by creating a function that takes in a list (array) and a new 
 [Code For Array Binary Search Challenge](code_challenges/array_binary_search/array_binary_search.py)
 
 ## Challenge
-When given a list (array) as an argument, along with a single value as a second argument, we want to be able to insert that value in the middle of the array without removing any pre-existing values in the array. We want to shift the existing values to the right of where the new value is being placed (the middle).
+Perform a binary search on a sorted array with only 2 arguments (arr and x). arr is the sorted array and x is the value we are looking for in the array. We want to return the index that x appears in the array. If x does not exist in the array we should return -1. 
 
 ## Approach & Efficiency
-We kept it simple by creating a function that takes in a list (array) and a new value to be added. We took the length of the list argument and divided by 2 to get the middle position. In case of an odd length, we then used math.ceil to ensure that length is rounded up. We then used insert() to insert the new value at the correct middle position. Finally, we returned the array with the new value. Big O was O(1) - Constant time algorithms take the same amount of time to be executed. Execution time of O(1) algorithms is independent of input size.
+Created a function that takes in an ordered array and an integer and returns the index that the integer appears in the array. If the integer does not exist in the array, it will return -1. Defined low as 0 (always starting index of array), mid as 0 (to be updated as we go through the while loop), and high as length of array - 1 (to match 0 index concept). Then, find the middle value of the input array and determine whether it is less than, greater than, or equal to the integer argument. If equal, return middle index. If middle value is less than integer, ignore the left half. If middle value is greater than integer, ignore the right half. If the element is not present in the array, then return -1. Keep halving the array until value is found.
 
 ## Solution
 ![](code_challenges/assets/array_binary_search.jpg)
