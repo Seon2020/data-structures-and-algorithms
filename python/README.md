@@ -59,8 +59,8 @@ For each of the features/requirements, I started by making a test that would pro
 
 ## API
 Methods:
-- LinkedList __init__: This is the constructor for the actual linked list. Head (optional param) defaults to none and represents the head of the linked list.
 - Node __init__: This is the Node Constructor. Value param is the value that the node will represent. Next (optional param) defaults to none and represents the next node in the list.
+- LinkedList __init__: This is the constructor for the actual linked list. Head (optional param) defaults to none and represents the head of the linked list.
 - LinkedList insert: Inserts a value to the head of the linked list. Takes in a value that the new node represents.
 - LinkedList includes: Searches the linked list for a specific value. Takes in value we are searching for and outputs a boolean to indicate whether or not the value was found.
 - LinkedList __str__: Produces a string representation of the linked list.
