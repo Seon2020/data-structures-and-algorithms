@@ -42,7 +42,7 @@ Created a function that takes in an ordered array and an integer and returns the
 
 # Singly Linked List
 
-Linked List implementation with two classes: Node and LinkedList
+Linked List implementation with two classes: Node and LinkedList  
 [Code for Singly Linked List Implementation](python/code_challenges/linked_list/linked_list.py)
 ## Challenge
 Create two classes, LinkedList and Node. Using test-driven development, implement/test the following features:
