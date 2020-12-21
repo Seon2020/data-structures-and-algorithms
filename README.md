@@ -7,6 +7,8 @@
 - [Click here for the corresponding whiteboard image](python/code_challenges/assets/codechal2.jpg)  
 3. [Array Binary Search Challenge](python/code_challenges/array_binary_search/array_binary_search.py)
 - [Click here for the corresponding whiteboard image](python/code_challenges/assets/array_binary_search.jpg)  
+4. [Singly Linked List Challenge](python/code_challenges/linked_list/linked_list.py)
+- No whiteboard for this challenge. 
 
 ## Create a copy of this repository
 
