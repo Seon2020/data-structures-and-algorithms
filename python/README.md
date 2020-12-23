@@ -76,3 +76,15 @@ Node and LinkedList classes have already been created and tested. After writing 
 
 ## Solution
 ![](code_challenges/assets/Challenge06.jpg)
+
+# Linked List K-th Value From End 
+[Code For Linked List K-th Value From End Challenge](code_challenges/linked_list/linked_list.py)
+
+## Challenge
+Using test-driven development, create a function that gets the kth value from the end where the last node in the linked list has an index of 0. Increments by 1 with each traversal to the left.
+
+## Approach & Efficiency
+Node and LinkedList classes have already been created and tested. After writing the test, we went in to write the actual implementation function. After that, we ran the tests to ensure that all feature requirements are met. Time: O(n) Space: O(1).
+
+## Solution
+![](code_challenges/assets/CodeChallenge7.jpg)
