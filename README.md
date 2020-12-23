@@ -13,7 +13,7 @@
 6. [Linked list Insertions](python/code_challenges/linked_list/linked_list.py)
 - [Click here for the corresponding whiteboard image](python/code_challenges/assets/Challenge06.jpg)
 7. [K-th Value From End of Linked List](python/code_challenges/linked_list/linked_list.py)
-- [Click here for the corresponding whiteboard image](python/code_challenges/assets/Code Challenge 7.jpg)
+- [Click here for the corresponding whiteboard image](python/code_challenges/assets/CodeChallenge7.jpg)
 
 
 ## Create a copy of this repository
