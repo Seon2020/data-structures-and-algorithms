@@ -64,3 +64,15 @@ Methods:
 - LinkedList insert: Inserts a value to the head of the linked list. Takes in a value that the new node represents.
 - LinkedList includes: Searches the linked list for a specific value. Takes in value we are searching for and outputs a boolean to indicate whether or not the value was found.
 - LinkedList __str__: Produces a string representation of the linked list.
+
+# Linked List Insertions
+[Code For Linked List Insertions Challenge](code_challenges/linked_list/linked_list.py)
+
+## Challenge
+Using test-driven development, create functions that append an element to the end of a linked list, before a specified value, and after a specified value. 
+
+## Approach & Efficiency
+Node and LinkedList classes have already been created and tested. After writing each test, we went in to write the actual implementation function. After that, we ran the tests to make sure each function produces the expected values. Inserting at the head of the linked list is O(1) because it will always take the same amount of time. Inserting anywhere else in a linked list will be O(n) time because time is dependent on how many elements we need to traverse through. Space will be O(1) because the space required by the algorithm is constant. 
+
+## Solution
+![](code_challenges/assets/Challenge06.jpg)
