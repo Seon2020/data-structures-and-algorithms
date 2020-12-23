@@ -96,6 +96,26 @@ class LinkedList:
             current = current.next
 
         raise Exception(f"{{{value}}} does not exist in the linked list!") 
+    
+    def kthFromEnd(self, k:int) -> int:
+        """
+        Gets the kth value from the end where the last node in the linked list has an index of 0. Increments by one with each traversal to the left. 
+
+        Arguments: k, which is an integer representing the number of elements from the end.
+        """
+        current = self.head   
+
+        list_counter = []
+
+        while current is not None:
+            list_counter.append(current)
+            current = current.next
+        
+        list_size = len(list_counter)
+        if k < list_size:
+            return list_counter[list_size -k -1].value
+        
+        raise Exception('There is no value at that index!')
 
     def __str__(self):
         """
@@ -123,3 +143,4 @@ class Node:
         """
         self.value = value
         self.next = next
+
