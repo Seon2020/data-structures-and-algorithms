@@ -9,7 +9,7 @@
 - [Click here for the corresponding whiteboard image](python/code_challenges/assets/array_binary_search.jpg)  
 4. [Singly Linked List Challenge](python/code_challenges/linked_list/linked_list.py)
 - No whiteboard for this challenge.   
-**Challenge 5 will not be added to README**
+#### **Challenge 5 will not be added to README**
 6. [Linked list Insertions](python/code_challenges/linked_list/linked_list.py)
 - [Click here for the corresponding whiteboard image](python/code_challenges/assets/Challenge06.jpg)
 7. [K-th Value From End of Linked List](python/code_challenges/linked_list/linked_list.py)
