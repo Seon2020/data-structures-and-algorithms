@@ -63,3 +63,71 @@ def test_linked_list_str():
     expected = "{a}->{b}->{c}->NULL"
     assert actual == expected
 
+# Add node to end of list
+def test_append_node_to_list():
+    link_list = LinkedList()
+    link_list.insert('b')
+    link_list.insert('c')
+    link_list.append('a')
+    actual = str(link_list)
+    expected = "{c}->{b}->{a}->NULL"
+    assert actual == expected
+
+# Add multiple nodes to end of list 
+def test_append_nodes_to_list():
+    link_list = LinkedList()
+    link_list.insert('c')
+    link_list.insert('d')
+    link_list.append('b')
+    link_list.append('a')
+    actual = str(link_list)
+    expected = "{d}->{c}->{b}->{a}->NULL"
+    assert actual == expected
+
+# insert before middle
+def test_insert_before_middle():
+    link_list = LinkedList()
+    link_list.insert('c')
+    link_list.insert('d')
+    link_list.append('b')
+    link_list.append('a')
+    link_list.insertBefore('b', 'yasss')
+    actual = str(link_list)
+    expected = "{d}->{c}->{yasss}->{b}->{a}->NULL"
+    assert actual == expected
+
+# insert before first
+def test_insert_before_first():
+    link_list = LinkedList()
+    link_list.insert('c')
+    link_list.insert('d')
+    link_list.append('b')
+    link_list.append('a')
+    link_list.insertBefore('d', 'yasss')
+    actual = str(link_list)
+    expected = "{yasss}->{d}->{c}->{b}->{a}->NULL"
+    assert actual == expected
+
+# insert after middle
+def test_insert_after_middle():
+    link_list = LinkedList()
+    link_list.insert('c')
+    link_list.insert('d')
+    link_list.append('b')
+    link_list.append('a')
+    link_list.insertAfter('c', 'yasss')
+    actual = str(link_list)
+    expected = "{d}->{c}->{yasss}->{b}->{a}->NULL"
+    assert actual == expected
+
+# insert after last
+def test_insert_after_last():
+    link_list = LinkedList()
+    link_list.insert('c')
+    link_list.insert('d')
+    link_list.append('b')
+    link_list.append('a')
+    link_list.insertAfter('a', 'yasss')
+    actual = str(link_list)
+    expected = "{d}->{c}->{b}->{a}->{yasss}->NULL"
+    assert actual == expected

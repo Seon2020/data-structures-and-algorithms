@@ -39,6 +39,63 @@ class LinkedList:
             current = current.next
         
         return False
+    
+    def append(self, value):
+        """
+        Appends value to end of linked list
+
+        Arguments: value (value we trying to append).
+        """
+        node = Node(value)
+        current = self.head
+        if self.head == None:
+            self.head = node
+            return
+        
+        while current.next is not None:
+            current = current.next
+
+        current.next = node
+    
+    def insertBefore(self, value, newVal):
+        """
+        Inserts value before a specified value
+
+        Arguments: value and newVal (we are trying to insert newVal before value (if exists)).
+        """
+        current = self.head
+
+        if current.value == value:
+            self.insert(newVal)
+            return
+
+        while current is not None:
+            if current.next.value == value:
+                node = Node(newVal)
+                node.next = current.next
+                current.next = node
+                return
+            current = current.next
+
+        raise Exception(f"{{{value}}} does not exist in the linked list!")  
+
+    def insertAfter(self, value, newVal):
+        """
+        Inserts value after a specified value
+
+        Arguments: value and newVal (we are trying to insert newVal after value (if exists)).
+        """
+        current = self.head   
+
+        while current is not None:
+            if current.value == value:
+                node = Node(newVal)
+                node.next = current.next
+                current.next = node
+                return
+            current = current.next
+
+        raise Exception(f"{{{value}}} does not exist in the linked list!") 
 
     def __str__(self):
         """
@@ -66,5 +123,3 @@ class Node:
         """
         self.value = value
         self.next = next
-
-        
