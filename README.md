@@ -14,6 +14,8 @@
 - [Click here for the corresponding whiteboard image](python/code_challenges/assets/Challenge06.jpg)
 7. [K-th Value From End of Linked List](python/code_challenges/linked_list/linked_list.py)
 - [Click here for the corresponding whiteboard image](python/code_challenges/assets/CodeChallenge7.jpg)
+8. [Zip two linked lists](python/code_challenges/ll_zip/ll_zip.py)
+- [Click here for the corresponding whiteboard image](python/code_challenges/assets/ll_zip.jpg)
 
 
 ## Create a copy of this repository
