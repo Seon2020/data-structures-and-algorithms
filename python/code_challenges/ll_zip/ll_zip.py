@@ -1,4 +1,11 @@
 def zipLists(list1, list2):
+  """
+  This function takes in two linked lists and merges them together.
+
+  Input: Two linked lists
+
+  Output: Merged linked list the alternates between values of the original two linked lists. 
+  """
   list1_current = list1.head
   list2_current = list2.head
 
