@@ -88,3 +88,15 @@ Node and LinkedList classes have already been created and tested. After writing 
 
 ## Solution
 ![](code_challenges/assets/CodeChallenge7.jpg)
+
+# Zip two linked lists
+[Code For Zip Two Linked Lists Challenge](code_challenges/ll_zip/ll_zip.py)
+
+## Challenge
+Take two linked lists as inputs, and we want to merge them together so that they alternate between values. If one list is longer than the other, start adding the extra values in order from the linked list that is longer than the other. Return a reference to head of zipped list. 
+
+## Approach & Efficiency
+Cache the head of both lists. While those both have values, cache the next node for each in separate variables. Set the next of the first list's first value to the second list's first value and so on, until one list runs out of nodes. In that case, the original sequence of the list with more nodes is continued until the end is reached. Utilized existing methods in the LinkedList class to test output. Time: O(n) Space: O(1).
+
+## Solution
+![](code_challenges/assets/ll_zip.jpg)
