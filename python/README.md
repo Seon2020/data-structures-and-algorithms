@@ -102,7 +102,7 @@ Cache the head of both lists. While those both have values, cache the next node 
 ![](code_challenges/assets/ll_zip.jpg)
 
 # Stacks and Queues
-[Code For Zip Two Linked Lists Challenge](code_challenges/ll_zip/ll_zip.py)
+[Code For Stacks and Queues](code_challenges/stacks_and_queues/stacks_and_queues.py)
 
 ## Challenge
 - Create a Node class that has properties for the value stored in the Node, and a pointer to the next node.
