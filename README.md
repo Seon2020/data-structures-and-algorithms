@@ -16,7 +16,8 @@
 - [Click here for the corresponding whiteboard image](python/code_challenges/assets/CodeChallenge7.jpg)
 8. [Zip two linked lists](python/code_challenges/ll_zip/ll_zip.py)
 - [Click here for the corresponding whiteboard image](python/code_challenges/assets/ll_zip.jpg)
-
+9. [Stacks and Queues](python/code_challenges/stacks_and_queues/stacks_and_queues.py)
+- No whiteboard for this challenge.   
 
 ## Create a copy of this repository
 
