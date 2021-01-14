@@ -184,4 +184,4 @@ Cache the head of both lists. While those both have values, cache the next node 
     2. Time: O(n)
 
 ## Solution
-![](code_challenges/assets/code_chal_11.jpg)
+![](code_challenges/assets/code_chal_12.jpg)
