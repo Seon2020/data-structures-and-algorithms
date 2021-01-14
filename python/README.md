@@ -137,3 +137,51 @@ Cache the head of both lists. While those both have values, cache the next node 
 2. Define a method called dequeue that does not take any argument, removes the node from the front of the queue, and returns the node’s value.
 3. Define a method called peek that does not take an argument and returns the value of the node located in the front of the queue, without removing it from the queue.
 4. Define a method called isEmpty that takes no argument, and returns a boolean indicating whether or not the queue is empty.
+
+# Implement a Queue using two Stacks
+
+[Code For Implement a Queue using two Stacks](code_challenges/queue_with_stacks/queue_with_stacks.py)
+
+## Challenge Summary
+- Create a brand new PseudoQueue class with the methods enqueue and dequeue.
+
+## Challenge Description
+- Create a brand new PseudoQueue class. Do not use an existing Queue. Instead, this PseudoQueue class will implement our standard queue interface (the two methods listed below), but will internally only utilize 2 Stack objects. Ensure that you create your class with the following methods:
+
+- enqueue(value) which inserts value into the PseudoQueue, using a first-in, first-out approach.
+- dequeue() which extracts a value from the PseudoQueue, using a first-in, first-out approach.
+
+## Approach & Efficiency
+- Enqueue
+    1. Space: O(1)
+    2. Time: O(1)
+- Dequeue
+    1. Space: O(n)
+    2. Time: O(n)
+
+## Solution
+![](code_challenges/assets/code_chal_11.jpg)
+
+# First-in, First out Animal Shelter
+
+[Code For First-in, First out Animal Shelter](code_challenges/fifo_animal_shelter/fifo_animal_shelter.py)
+
+## Challenge Summary
+- Create a brand new AnimalShelter class with the methods enqueue and dequeue.
+
+## Challenge Description
+- Create a class called AnimalShelter which holds only dogs and cats. The shelter operates using a first-in, first-out approach.
+- Implement the following methods:
+    1. enqueue(animal): adds animal to the shelter. animal can be either a dog or a cat object.
+    2. dequeue(pref): returns either a dog or a cat. If pref is not "dog" or "cat" then return null.
+
+## Approach & Efficiency
+- Enqueue
+    1. Space: O(1)
+    2. Time: O(1)
+- Dequeue
+    1. Space: O(n)
+    2. Time: O(n)
+
+## Solution
+![](code_challenges/assets/code_chal_11.jpg)
