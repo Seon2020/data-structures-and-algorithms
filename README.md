@@ -18,6 +18,10 @@
 - [Click here for the corresponding whiteboard image](python/code_challenges/assets/ll_zip.jpg)
 9. [Stacks and Queues](python/code_challenges/stacks_and_queues/stacks_and_queues.py)
 - No whiteboard for this challenge.   
+10. [Implement a Queue using two Stacks](python/code_challenges/queue_with_stacks/queue_with_stacks.py)
+- [Click here for the corresponding whiteboard image](python/code_challenges/assets/code_chal_11.jpg)   
+11. [First-in, First out Animal Shelter](python/code_challenges/fifo_animal_shelter/fifo_animal_shelter.py)
+- [Click here for the corresponding whiteboard image](python/code_challenges/assets/code_chal_12.jpg) 
 
 ## Create a copy of this repository
 
