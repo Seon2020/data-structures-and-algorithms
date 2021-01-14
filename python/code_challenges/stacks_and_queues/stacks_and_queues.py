@@ -20,9 +20,8 @@ class Stack():
       raise InvalidOperationError("Method not allowed on empty collection")
 
     node = self.top
-
     self.top = self.top.next 
-
+    node.next = None
     return node.value
 
   def peek(self):
