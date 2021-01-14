@@ -18,10 +18,12 @@ class AnimalShelter():
       else:
         raise Exception("Animal type provided is not valid")
 
-    def dequeue(self, type_not_interested:str) -> str:
-      if type_not_interested == "cat":
+    def dequeue(self, preference:str) -> str:
+      if preference == "cat":
         return self.cats.dequeue()
-      elif type_not_interested == "dog":
+      elif preference == "dog":
         return self.dogs.dequeue()
       else:
         raise Exception("Unable to successfully dequeue")
+
+        
