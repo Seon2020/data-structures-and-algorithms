@@ -180,8 +180,8 @@ Cache the head of both lists. While those both have values, cache the next node 
     1. Space: O(1)
     2. Time: O(1)
 - Dequeue
-    1. Space: O(n)
-    2. Time: O(n)
+    1. Space: O(1)
+    2. Time: O(1)
 
 ## Solution
 ![](code_challenges/assets/code_chal_12.jpg)
