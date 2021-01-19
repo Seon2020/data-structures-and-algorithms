@@ -185,3 +185,18 @@ Cache the head of both lists. While those both have values, cache the next node 
 
 ## Solution
 ![](code_challenges/assets/code_chal_12.jpg)
+
+# Multi-bracket Validation
+
+[Code For Multi-bracket Validation](code_challenges/multi_bracket_validation/multi_bracket_validation.py)
+
+## Challenge Summary/Description
+- Create a function that takes in a string and returns true or false depending on whether or not the brackets ('{}', '[]', '()') are balanced. 
+
+## Approach & Efficiency
+- Using a stack, I iterate through the string. The opening brackets are pushed onto the stack and then when a closing bracket is found, the corresponding opening bracket is popped out from the stack. If the stacks ends up being empty at the end, I return true.  
+Space: O(1)
+Time: O(n)
+
+## Solution
+![](code_challenges/assets/codechal13.jpg)
