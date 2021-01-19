@@ -26,4 +26,4 @@ class AnimalShelter():
       else:
         raise Exception("Unable to successfully dequeue")
 
-        
+
