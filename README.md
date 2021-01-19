@@ -22,6 +22,8 @@
 - [Click here for the corresponding whiteboard image](python/code_challenges/assets/code_chal_11.jpg)   
 11. [First-in, First out Animal Shelter](python/code_challenges/fifo_animal_shelter/fifo_animal_shelter.py)
 - [Click here for the corresponding whiteboard image](python/code_challenges/assets/code_chal_12.jpg) 
+12. [Multi-bracket Validation](python/code_challenges/multi_bracket_validation/multi_bracket_validation.py)
+- [Click here for the corresponding whiteboard image](python/code_challenges/assets/codechal13.jpg) 
 
 ## Create a copy of this repository
 
