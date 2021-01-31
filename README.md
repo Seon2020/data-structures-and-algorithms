@@ -24,6 +24,8 @@
 - [Click here for the corresponding whiteboard image](python/code_challenges/assets/code_chal_12.jpg) 
 12. [Multi-bracket Validation](python/code_challenges/multi_bracket_validation/multi_bracket_validation.py)
 - [Click here for the corresponding whiteboard image](python/code_challenges/assets/codechal13.jpg) 
+13. [Trees](python/code_challenges/tree/tree.py)
+- No whiteboard for this challenge. 
 
 ## Create a copy of this repository
 
