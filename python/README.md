@@ -201,3 +201,29 @@ Time: O(n)
 
 ## Solution
 ![](code_challenges/assets/codechal13.jpg)
+
+# Trees
+
+Trees implementation with three classes: Node, BinaryTree, and BinarySearchTree 
+[Code for Singly Linked List Implementation](code_challenges/tree/tree.py)
+
+## Challenge
+Create three classes, Node, BinaryTree, and BinarySearchTree. Using test-driven development, implement/test the following features:
+1. Can successfully instantiate an empty tree
+2. Can successfully instantiate a tree with a single root node
+3. Can successfully add a left child and right child to a single root node
+4. Can successfully return a collection from a preorder traversal
+5. Can successfully return a collection from an inorder traversal
+6. Can successfully return a collection from a postorder traversal
+
+## Approach & Efficiency
+For each of the features/requirements, I started by making a test that would prove that functionality. From there, I updated the Node, BinaryTree, and BinarySearchTree classes to create the actual functionality. After doing this for all of the features, I confirmed all tests passing.
+
+## API
+Methods:
+- Create a Node class that has properties for the value stored in the node, the left child node, and the right child node
+- Create a BinaryTree class
+    1. Define a method for each of the depth first traversals called preOrder, inOrder, and postOrder which returns an array of the values, ordered appropriately.
+- Create a BinarySearchTree class
+    1. Define a method named add that accepts a value, and adds a new node with that value in the correct location in the binary search tree.
+    2. Define a method named contains that accepts a value, and returns a boolean indicating whether or not the value is in the tree at least once.
