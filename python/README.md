@@ -202,10 +202,10 @@ Time: O(n)
 ## Solution
 ![](code_challenges/assets/codechal13.jpg)
 
-# Trees
+# Trees  
 
-Trees implementation with three classes: Node, BinaryTree, and BinarySearchTree 
-[Code for Singly Linked List Implementation](code_challenges/tree/tree.py)
+Trees implementation with three classes: Node, BinaryTree, and BinarySearchTree   
+[Code for Singly Linked List Implementation](code_challenges/tree/tree.py)  
 
 ## Challenge
 Create three classes, Node, BinaryTree, and BinarySearchTree. Using test-driven development, implement/test the following features:
