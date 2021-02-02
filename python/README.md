@@ -205,7 +205,7 @@ Time: O(n)
 # Trees  
 
 Trees implementation with three classes: Node, BinaryTree, and BinarySearchTree   
-[Code for Singly Linked List Implementation](code_challenges/tree/tree.py)  
+[Code for Trees Implementation](code_challenges/tree/tree.py)  
 
 ## Challenge
 Create three classes, Node, BinaryTree, and BinarySearchTree. Using test-driven development, implement/test the following features:
@@ -227,3 +227,19 @@ Methods:
 - Create a BinarySearchTree class
     1. Define a method named add that accepts a value, and adds a new node with that value in the correct location in the binary search tree.
     2. Define a method named contains that accepts a value, and returns a boolean indicating whether or not the value is in the tree at least once.
+    
+# Find the Maximum Value in a Binary Tree
+
+[Code For This Challenge](code_challenges/tree/tree.py)  
+
+## Challenge Summary/Description
+- Find the Maximum Value in a Binary Tree
+
+## Approach & Efficiency
+- Using recursion, I go through each value in the tree and check if the new root is the highest value in that tree. One I have gone through the entire tree, return that value. 
+
+Space: O(1)  
+Time: O(n)
+
+## Solution
+![](code_challenges/assets/find_max_bt.jpg)
