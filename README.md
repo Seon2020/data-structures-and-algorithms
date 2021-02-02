@@ -27,7 +27,7 @@
 13. [Trees](python/code_challenges/tree/tree.py)
 - No whiteboard for this challenge. 
 13. [Find Max Value in Binary Tree](python/code_challenges/tree/tree.py)
-- [Click here for the corresponding whiteboard image](python/code_challenges/assets/max_val_bt.jpg) 
+- [Click here for the corresponding whiteboard image](python/code_challenges/assets/find_max_bt.jpg) 
 
 ## Create a copy of this repository
 
