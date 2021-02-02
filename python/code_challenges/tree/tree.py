@@ -41,6 +41,21 @@ class BinaryTree:
     traverse(self.root)
     return result
 
+  def find_maximum_value(self) -> int: 
+    highest_value = self.root.value
+    def traverse(root):
+      nonlocal highest_value 
+      if highest_value < root.value:
+        highest_value = root.value
+      if root.left:
+        traverse(root.left)
+      if root.right:
+        traverse(root.right)
+    traverse(self.root)
+    return highest_value
+
+
+
 class BinarySearchTree(BinaryTree):
   def add(self, value): 
     node = Node(value)

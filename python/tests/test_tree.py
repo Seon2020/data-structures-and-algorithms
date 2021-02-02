@@ -91,3 +91,15 @@ def test_bst():
   three.right = five
   five.right = six
   return bst
+
+# Find the Maximum Value in a Binary Tree
+def test_find_maxval_bt(test_tree):
+  expected = 6
+  actual = test_tree.find_maximum_value()
+  assert actual == expected
+
+def test_find_maxval_onenode_bt():
+  tree = BinaryTree(Node(-10))
+  expected = -10
+  actual = tree.find_maximum_value()
+  assert actual == expected
