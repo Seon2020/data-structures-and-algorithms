@@ -6,7 +6,7 @@ def get_high(arr):
 
 def binary_search_recursive(arr, x, high=0):
   """
-  This function take in an ordered array and an integer and returns the index that the integer appears in the array. If the integer does not exist in the array, it will return -1.
+  This function takes in an ordered array and an integer and returns the index that the integer appears in the array. If the integer does not exist in the array, it will return -1.
 
   Arguments: An ordered array and an integer. Function has an optional argument that has a default value of 0 and acts as a placeholder. get_high(arr) will return the starting value of high. This value changes as the function calls itself.  
 
