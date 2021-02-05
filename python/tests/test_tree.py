@@ -103,3 +103,53 @@ def test_find_maxval_onenode_bt():
   expected = -10
   actual = tree.find_maximum_value()
   assert actual == expected
+
+# Breadth first code challenge
+def test_breadth_first_even():
+  tree = BinaryTree()
+  a = Node('A')
+  b = Node('B')
+  c = Node('C')
+  d = Node('D')
+  e = Node('E')
+  f = Node('F')
+
+  tree.root = a 
+  a.left = b
+  a.right = c 
+  b.left = d
+  b.right = e
+  c.left = f
+  actual = tree.breadth_first()
+  expected = ['A', 'B', 'C', 'D', 'E', 'F']
+  assert actual == expected
+
+def test_breadth_first_odd():
+  tree = BinaryTree()
+  a = Node('A')
+  b = Node('B')
+  c = Node('C')
+  d = Node('D')
+  e = Node('E')
+  f = Node('F')
+  g = Node('G')
+
+  tree.root = a 
+  a.left = b
+  a.right = c 
+  b.left = d
+  b.right = e
+  c.left = f
+  c.right = g
+  actual = tree.breadth_first()
+  expected = ['A', 'B', 'C', 'D', 'E', 'F', 'G']
+  assert actual == expected
+
+def test_breadth_first_one_node():
+  tree = BinaryTree()
+  a = Node('A')
+  tree.root = a 
+  actual = tree.breadth_first()
+  expected = ['A']
+  assert actual == expected
+
