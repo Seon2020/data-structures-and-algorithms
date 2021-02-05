@@ -62,7 +62,6 @@ class BinaryTree:
     breadth_queue.enqueue(self.root)
     while not breadth_queue.is_empty():
       front = breadth_queue.dequeue()
-      print(front.value)
       output.append(front.value)
       if front.left:
         breadth_queue.enqueue(front.left)
