@@ -28,7 +28,7 @@
 - No whiteboard for this challenge. 
 14. [Find Max Value in Binary Tree](python/code_challenges/tree/tree.py)
 - [Click here for the corresponding whiteboard image](python/code_challenges/assets/find_max_bt.jpg) 
-15. [Breadth First Code Challenge](python/code_challenges/breadth_first/breadth_first.py)
+15. [Breadth First Code Challenge](python/code_challenges/tree/tree.py)
 - [Click here for the corresponding whiteboard image](python/code_challenges/assets/breadth_first.jpg) 
 
 ## Create a copy of this repository
