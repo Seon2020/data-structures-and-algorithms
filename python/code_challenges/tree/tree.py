@@ -1,3 +1,5 @@
+from code_challenges.stacks_and_queues.stacks_and_queues import Queue
+
 class Node:
   def __init__(self, value, left=None, right=None):
     self.value = value
@@ -53,7 +55,20 @@ class BinaryTree:
         traverse(root.right)
     traverse(self.root)
     return highest_value
-
+  
+  def breadth_first(self) -> list:
+    breadth_queue = Queue()
+    output = []
+    breadth_queue.enqueue(self.root)
+    while not breadth_queue.is_empty():
+      front = breadth_queue.dequeue()
+      print(front.value)
+      output.append(front.value)
+      if front.left:
+        breadth_queue.enqueue(front.left)
+      if front.right:
+        breadth_queue.enqueue(front.right)
+    return output
 
 
 class BinarySearchTree(BinaryTree):
@@ -85,3 +100,4 @@ class BinarySearchTree(BinaryTree):
       elif value > current.value:
         current = current.right
     return False
+

@@ -43,9 +43,9 @@ class Queue():
     if self.is_empty():
       self.front = node
       self.rear = node
-  
-    self.rear.next = node  
-    self.rear = node
+    else:
+      self.rear.next = node  
+      self.rear = node
     
   def dequeue(self):
     if self.is_empty():
