@@ -243,3 +243,19 @@ Time: O(n)
 
 ## Solution
 ![](code_challenges/assets/find_max_bt.jpg)
+
+# Breadth-first Traversal
+
+[Code For This Challenge](code_challenges/tree/tree.py)  
+
+## Challenge Summary/Description
+- Print out values in a tree from a breadth first approach
+
+## Approach & Efficiency
+- I implemented breadth first using a queue and a while loop. In the while loop, I included the logic for traversing the tree breadth first.  
+
+Space: O(1)  
+Time: O(n)
+
+## Solution
+![](code_challenges/assets/breadth_first.jpg)
