@@ -31,7 +31,7 @@
 15. [Breadth First Code Challenge](python/code_challenges/tree/tree.py)
 - [Click here for the corresponding whiteboard image](python/code_challenges/assets/breadth_first.jpg) 
 16. [Fizz Buzz Tree](python/code_challenges/fizz_buzz_tree/fizz_buzz_tree.py)
-- [Click here for the corresponding whiteboard image](python/code_challenges/assets/fizz_buzz.jpg) 
+- [Click here for the corresponding whiteboard image](python/code_challenges/assets/fizz_buzz.png) 
 
 
 ## Create a copy of this repository
