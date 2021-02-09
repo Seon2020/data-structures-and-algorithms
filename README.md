@@ -30,7 +30,7 @@
 - [Click here for the corresponding whiteboard image](python/code_challenges/assets/find_max_bt.jpg) 
 15. [Breadth First Code Challenge](python/code_challenges/tree/tree.py)
 - [Click here for the corresponding whiteboard image](python/code_challenges/assets/breadth_first.jpg) 
-15. [Fizz Buzz Tree](python/code_challenges/fizz_buzz_tree/fizz_buzz_tree.py)
+16. [Fizz Buzz Tree](python/code_challenges/fizz_buzz_tree/fizz_buzz_tree.py)
 - [Click here for the corresponding whiteboard image](python/code_challenges/assets/fizz_buzz.jpg) 
 
 
