@@ -259,3 +259,19 @@ Time: O(n)
 
 ## Solution
 ![](code_challenges/assets/breadth_first.jpg)
+
+# Fizz Buzz Tree 
+
+[Code For This Challenge](code_challenges/fizz_buzz_tree/fizz_buzz_tree.py)  
+
+## Challenge Summary/Description
+- Conduct a fizzbuzz on a BT and return a new BT. 
+
+## Approach & Efficiency
+- I created two new classes: one for creating new nodes and one for creating a new tree. Both have init methods. In the tree class, I created two methods: one to find all values in the tree and another to modify values if divisible by 3, 5, or both. 
+
+Space: O(1)  
+Time: O(n)
+
+## Solution
+![](code_challenges/assets/fizz_buzz.png)
