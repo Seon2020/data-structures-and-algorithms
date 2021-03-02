@@ -32,7 +32,8 @@
 - [Click here for the corresponding whiteboard image](python/code_challenges/assets/breadth_first.jpg) 
 16. [Fizz Buzz Tree](python/code_challenges/fizz_buzz_tree/fizz_buzz_tree.py)
 - [Click here for the corresponding whiteboard image](python/code_challenges/assets/fizz_buzz.png) 
-
+17. [Insertion Sort](python/code_challenges/insertion_sort/insertion_sort.py)
+- No whiteboard for this challenge. 
 
 ## Create a copy of this repository
 
