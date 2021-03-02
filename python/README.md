@@ -280,4 +280,4 @@ Time: O(n)
 
 [Code for this challenge](code_challenges/insertion_sort/insertion_sort.py)
 
-[Trace for this challenge](python/code_challenges/insertion_sort/BLOG.md)
+[Trace for this challenge](code_challenges/insertion_sort/BLOG.md)
