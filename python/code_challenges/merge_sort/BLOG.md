@@ -4,7 +4,6 @@
 ```
 ALGORITHM Mergesort(arr)
     DECLARE n <-- arr.length
-           
     if n > 1
       DECLARE mid <-- n/2
       DECLARE left <-- arr[0...mid]
