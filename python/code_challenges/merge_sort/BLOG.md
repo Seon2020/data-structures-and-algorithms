@@ -85,7 +85,7 @@ ALGORITHM Merge(left, right, arr)
 RETURN arr
 Output: [4,8,15,16,23,42]
 ```
-- Lastly, merge is called to merge the two halves and do another comparison of values to put each value into the correct spot. From right and left, 23 is placed after 16 while the arrays become one!                    
+- Lastly, merge is called to merge the two halves and do another comparison of values to put each value into the correct spot. 23 is placed after 16 while the arrays become one!                    
 
 ### Efficieny
 - Time: O(n log(n)): We will need to split the array a certain number of times. Basically, time will be proportional to the number of digits in n. 
