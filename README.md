@@ -34,6 +34,8 @@
 - [Click here for the corresponding whiteboard image](python/code_challenges/assets/fizz_buzz.png) 
 17. [Insertion Sort](python/code_challenges/insertion_sort/insertion_sort.py)
 - No whiteboard for this challenge. 
+18. [Merge Sort](python/code_challenges/merge_sort/merge_sort.py)
+- No whiteboard for this challenge. 
 
 ## Create a copy of this repository
 
