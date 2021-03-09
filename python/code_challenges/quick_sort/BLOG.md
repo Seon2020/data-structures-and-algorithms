@@ -34,7 +34,7 @@ ALGORITHM Swap(arr, i, low)
     arr[low] <-- temp
 ```
 ### Trace 
-- Sample array: [8,4,23,42,16,15]
+- Sample array: [8,4,23,42,16,15]. 
 **Stepping through quick_sort:**  
 - Our function takes in an array, the first index position (0), and the last index position (len(arr)-1). 
 - We pass the array and the index positions to our partition method and cache it in a variable position. 
@@ -48,8 +48,8 @@ quick_sort([8,4,23,42,16,15], 0, position - 1)
 quick_sort(arr, position + 1, right) ------->
 quick_sort([8,4,23,42,16,15], position + 1, 5)
 ```
-- Once the above recursion calls are finished, the new sorted array is returned. 
-**Stepping Through Partition:**
+- Once the above recursion calls are finished, the new sorted array is returned.   
+**Stepping Through Partition:**. 
 - We pass the partition function the full input array, the first index, and the second index:
 ```
 position = partition(arr, left, right) ----->
@@ -62,8 +62,8 @@ position = partition([8,4,23,42,16,15], 0, 5)
 - If the above is true, increment low by 1 and call our third method, swap, with the array, value of i, and value of low (after it was incremented). 
 - If the if statement was false, then we move on to the next iteration to see if the condition is true of false.
 - Once we break from the for loop, we call swap with the array, right value, and low value plus 1. 
-- Finally, we will return the value of low plus 1.  
-**Stepping Through Swap:**  
+- Finally, we will return the value of low plus 1.    
+**Stepping Through Swap:**.   
 - Swap will take in an array, i, and low. 
 - First, we assign variable temp to the value at arr[i]. 
 - Then, we assign arr[i] to equal arr[low].
