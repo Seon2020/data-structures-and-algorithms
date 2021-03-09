@@ -33,3 +33,4 @@ def merge(left: list, right: list, arr: list):
         j += 1 
         k += 1
 
+
