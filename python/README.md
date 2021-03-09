@@ -287,3 +287,9 @@ Time: O(n)
 [Code for this challenge](code_challenges/merge_sort/merge_sort.py)
 
 [Trace for this challenge](code_challenges/merge_sort/BLOG.md)
+
+# Quick Sort 
+
+[Code for this challenge](code_challenges/quick_sort/quick_sort.py)
+
+[Trace for this challenge](code_challenges/quick_sort/BLOG.md)
