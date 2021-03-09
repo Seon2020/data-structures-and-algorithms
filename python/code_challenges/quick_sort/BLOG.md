@@ -72,6 +72,6 @@ position = partition([8,4,23,42,16,15], 0, 5)
 - Finally, we set arr[low] to equal temp. 
                  
 ### Efficieny
-- Time: O(n log(n)): We will need to split the array a certain number of times. Basically, time will be proportional to the number of digits in n. 
+- Time: O(n log(n)): Time will be proportional to the number of digits in n. 
 
 - Space: O(log(n)): logarithmic complexity - happens with functions that deal with recursion. Space increases by k/2.  
