@@ -36,7 +36,9 @@
 - No whiteboard for this challenge. 
 18. [Merge Sort](python/code_challenges/merge_sort/merge_sort.py)
 - No whiteboard for this challenge. 
-
+19. [Quick Sort](python/code_challenges/quick_sort/quick_sort.py)
+- No whiteboard for this challenge. 
+- 
 ## Create a copy of this repository
 
 If you have not already created your data-structures-and-algorithms repository, Please follow these steps:
