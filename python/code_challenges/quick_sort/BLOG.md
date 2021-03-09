@@ -34,8 +34,10 @@ ALGORITHM Swap(arr, i, low)
     arr[low] <-- temp
 ```
 ### Trace 
-- Sample array: [8,4,23,42,16,15]. 
-**Stepping through quick_sort:**  
+- Sample array: [8,4,23,42,16,15].  
+   
+**Stepping through quick_sort:**.   
+
 - Our function takes in an array, the first index position (0), and the last index position (len(arr)-1). 
 - We pass the array and the index positions to our partition method and cache it in a variable position. 
 - We then call quick_sort recursively:
