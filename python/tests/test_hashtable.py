@@ -52,9 +52,7 @@ def test_hashtable_collision():
     hashtable = Hashtable()
     initial = hashtable.add('listen', 'One')
     secondary = hashtable.add('silent', 'Two')
-    actual = hashtable.contains('silent') and hashtable.contains('listen')
-    expected = True
-    assert actual == expected
+    assert hashtable._hash('listen') == hashtable._hash('silent')
 
 # Successfully retrieve a value from a bucket within the hastable that has a collision
 def test_retrieve_value_in_collision_bucket():
