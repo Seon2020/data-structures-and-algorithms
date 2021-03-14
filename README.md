@@ -38,6 +38,8 @@
 - No whiteboard for this challenge. 
 19. [Quick Sort](python/code_challenges/quick_sort/quick_sort.py)
 - No whiteboard for this challenge. 
+20. [Hash Tables](python/code_challenges/hashtable/hashtable.py)
+- No whiteboard for this challenge. 
 
 ## Create a copy of this repository
 
