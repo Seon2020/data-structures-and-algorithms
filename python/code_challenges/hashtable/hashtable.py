@@ -40,5 +40,3 @@ class Hashtable:
                     return True
                 current = current.next
         return False
-
-
