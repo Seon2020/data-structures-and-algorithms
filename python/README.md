@@ -318,3 +318,16 @@ add    - key,val- None
 get    - key    - value
 contain- key    - True or False
 ```
+# Repeated Word Using Hash Table 
+## Challenge Code
+[Code here](code_challenges/repeated_word/repeated_word.py)
+
+## Challenge Description
+- Create a method that takes in a string and uses a hashtable to return the first word that is repeated twice. 
+
+## Approach and Efficiency
+- Space: O(1) (space is constant in relation to input)
+- Time: O(n) (time is dependent on the number of elements that we need to traverse)
+
+## Solution
+![](code_challenges/assets/cc_31.png)
