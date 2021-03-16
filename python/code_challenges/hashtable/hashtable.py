@@ -6,11 +6,7 @@ class Hashtable:
         self._buckets = [None] * size
     
     def _hash(self, key):
-        hash_total = 0
-
-        for ch in key:
-            hash_total += ord(ch)
-        
+        hash_total = sum([ord(ch) for ch in key])
         return (hash_total * 211) % self._size
 
     def add(self, key, value):
