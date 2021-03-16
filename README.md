@@ -41,7 +41,7 @@
 20. [Hash Tables](python/code_challenges/hashtable/hashtable.py)
 - No whiteboard for this challenge. 
 21. [Repeated Word with Hash Table](python/code_challenges/repeated_word/repeated_word.py)
-- [Click here for the corresponding whiteboard image](python/code_challenges/assets/cc_31.jpg) 
+- [Click here for the corresponding whiteboard image](python/code_challenges/assets/cc_31.png) 
 
 If you have not already created your data-structures-and-algorithms repository, Please follow these steps:
 
