@@ -332,7 +332,7 @@ contain- key    - True or False
 ## Solution
 ![](code_challenges/assets/cc_31.png)
 
-# Common Values in Two BTs 
+# Tree Intersection 
 ## Challenge Code
 [Code here](code_challenges/common_vals_bt/common_vals_bt.py)
 
