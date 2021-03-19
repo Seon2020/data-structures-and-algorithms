@@ -331,3 +331,17 @@ contain- key    - True or False
 
 ## Solution
 ![](code_challenges/assets/cc_31.png)
+
+# Common Values in Two BTs 
+## Challenge Code
+[Code here](code_challenges/common_vals_bt/common_vals_bt.py)
+
+## Challenge Description
+- Create a method that takes in two bts and uses a hashtable to return all the common values between the trees.  
+
+## Approach and Efficiency
+- Space: O(1) (space is constant in relation to input)
+- Time: O(n) (time is dependent on the number of elements that we need to traverse)
+
+## Solution
+![](code_challenges/assets/common_vals.png)
