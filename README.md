@@ -42,7 +42,7 @@
 - No whiteboard for this challenge. 
 21. [Repeated Word with Hash Table](python/code_challenges/repeated_word/repeated_word.py)
 - [Click here for the corresponding whiteboard image](python/code_challenges/assets/cc_31.png) 
-22. [Common Values in BTs](python/code_challenges/common_vals_bt/common_vals_bt.py)
+22. [Tree Intersection](python/code_challenges/common_vals_bt/common_vals_bt.py)
 - [Click here for the corresponding whiteboard image](python/code_challenges/assets/common_vals.png)
 
 
