@@ -44,8 +44,8 @@
 - [Click here for the corresponding whiteboard image](python/code_challenges/assets/cc_31.png) 
 22. [Tree Intersection](python/code_challenges/common_vals_bt/common_vals_bt.py)
 - [Click here for the corresponding whiteboard image](python/code_challenges/assets/common_vals.png)
-
-
+23. [Left-Join](python/code_challenges/left_join/left_join.py)
+- [Click here for the corresponding whiteboard image](python/code_challenges/assets/cc_33.png)
 
 
 If you have not already created your data-structures-and-algorithms repository, Please follow these steps:
