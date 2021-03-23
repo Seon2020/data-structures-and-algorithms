@@ -345,3 +345,17 @@ contain- key    - True or False
 
 ## Solution
 ![](code_challenges/assets/common_vals.png)
+
+# Left Join
+## Challenge Code
+[Code here](code_challenges/left_join/left_join.py)
+
+## Challenge Description
+- Taking in two hashtables, one with keys and corresponding synonym values and the other with some of the same keys and corresponding antonym values, return every left key with the corresponding left value and right value if it exists. If there is no right value for that key, return None. 
+
+## Approach and Efficiency
+- Space: O(n) (output list is dependent on the the number of non-empty nodes in the input hashtables
+- Time: O(n) (time is dependent on the number of nodes that we need to traverse)
+
+## Solution
+![](code_challenges/assets/cc_33.png)
