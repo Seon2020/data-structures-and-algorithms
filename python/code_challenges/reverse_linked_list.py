@@ -5,5 +5,15 @@ def reverse_list(ll):
     Returns:
         linked list in reversed form
     """
-    # put your function implementation here
+    prev = None
+    current = ll.head
+    while current is not None:
+        next = current.next
+        current.next = prev
+        prev = current
+        current = next
+    ll.head = prev
     return ll
+
+
+
