@@ -372,7 +372,7 @@ contain- key    - True or False
 - Note that all methods utilized have space and time efficiency of O(1). 
 ## API
 ```
-def add_node(self, val) -> *returns node value*
+def add_node(self, val) -> *returns the node being created*
 add_edge(self, start, end, weight=1) -> obj:
 get_nodes(self) -> list:
 get_neighbors(self, vertex) -> dict:
