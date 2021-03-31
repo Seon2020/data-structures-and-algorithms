@@ -9,7 +9,7 @@ class Graph(Graph):
         visited.add(vertex)
 
         while breadth:
-            front = breadth.pop()
+            front = breadth.pop(0)
             nodes.append(front)
 
             for neighbor in self.get_neighbors(front):

@@ -14,7 +14,7 @@ def test_breadth_first_multiple():
     graph.add_edge(a, b)
     graph.add_edge(a, c)
     actual = graph.breadth_first(a)
-    assert actual == [a, c, b]
+    assert actual == [a, b, c]
 
 def test_breadth_first_many():
     graph = Graph()
@@ -30,5 +30,5 @@ def test_breadth_first_many():
     graph.add_edge(c, e)
     graph.add_edge(b, f)
     actual = graph.breadth_first(a)
-    assert actual == [a, c, e, d, b, f]
+    assert actual == [a, b, c, f, d, e]
 
