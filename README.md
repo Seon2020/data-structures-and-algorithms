@@ -46,8 +46,9 @@
 - [Click here for the corresponding whiteboard image](python/code_challenges/assets/common_vals.png)
 23. [Left-Join](python/code_challenges/left_join/left_join.py)
 - [Click here for the corresponding whiteboard image](python/code_challenges/assets/cc_33.png)
-
-
+24. [Graphs](python/code_challenges/graphs/graphs.py)
+- No whiteboard for this challenge.  
+- 
 If you have not already created your data-structures-and-algorithms repository, Please follow these steps:
 
 1. Create a new, empty repository called `data-structures-and-algorithms`
