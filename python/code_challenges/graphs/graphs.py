@@ -38,9 +38,4 @@ class Edge:
         self.vertex = vertex
         self.weight = weight
 
-graph = Graph()
-a = graph.add_node('a')
-b = graph.add_node('b')
-c = graph.add_node('c')
-e_1 = graph.add_edge(a, b, 2)
-print(e_1)
+
