@@ -42,5 +42,5 @@ class Edge:
         self.weight = weight
     
     def __str__(self):
-        return str(self.vertex), self.weight
-
+       return f"({self.vertex}, {self.weight})"
+       
