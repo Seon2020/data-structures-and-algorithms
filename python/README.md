@@ -378,3 +378,16 @@ get_nodes(self) -> list:
 get_neighbors(self, vertex) -> dict:
 size(self) -> str:
 ```
+# Graphs Breadth First 
+## Challenge Code
+[Code here](code_challenges/breadth_first/breadth_first.py)
+
+## Challenge Description
+- Implement a breadth first traversal of a graph.
+
+## Approach and Efficiency
+- Space: O(n) (output list is dependent on the the number of vertexes in the graph)
+- Time: O(n) (time is dependent on the number of vertexes that we need to traverse)
+
+## Solution
+![](code_challenges/assets/cc_36.png)
