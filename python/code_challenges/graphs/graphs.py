@@ -33,9 +33,14 @@ class Vertex:
     def __init__(self, value):
         self.value = value
     
+    def __str__(self):
+        return str(self.value)
+
 class Edge:
     def __init__(self, vertex, weight=1):
         self.vertex = vertex
         self.weight = weight
-
+    
+    def __str__(self):
+        return str(self.vertex), self.weight
 
