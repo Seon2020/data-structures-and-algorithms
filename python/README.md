@@ -391,3 +391,17 @@ size(self) -> str:
 
 ## Solution
 ![](code_challenges/assets/cc_36.png)
+
+# Graphs Get Edge
+## Challenge Code
+[Code here](code_challenges/get_edge/get_edge.py)
+
+## Challenge Description
+- Given a graph and a list of destinations, return whether the trip is possible with all direct flights and if so, include the total price(weight).
+
+## Approach and Efficiency
+- Space: O(n) (dependent on n nodes (vertexes)
+- Time: O(n) (dependent on n nodes (vertexes)
+
+## Solution
+![](code_challenges/assets/cc_37.png)
