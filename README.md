@@ -50,7 +50,8 @@
 - No whiteboard for this challenge.  
 25. [Graph Breadth-First](python/code_challenges/breadth_first/breadth_first.py)
 - [Click here for the corresponding whiteboard image](python/code_challenges/assets/cc_36.png)
-
+26. [Graph Get-Edge](python/code_challenges/get_edge/get_edge.py)
+- [Click here for the corresponding whiteboard image](python/code_challenges/assets/cc_37.png)
 
 
 
