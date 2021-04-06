@@ -405,3 +405,17 @@ size(self) -> str:
 
 ## Solution
 ![](code_challenges/assets/cc_37.png)
+
+# Graphs Depth First 
+## Challenge Code
+[Code here](code_challenges/depth_first/depth_first.py)
+
+## Challenge Description
+- Implement a depth first traversal of a graph.
+
+## Approach and Efficiency
+- Space: O(n) (output list is dependent on the the number of vertexes in the graph)
+- Time: O(n) (time is dependent on the number of vertexes that we need to traverse)
+
+## Solution
+![](code_challenges/assets/cc_38.png)
