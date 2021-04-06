@@ -52,7 +52,8 @@
 - [Click here for the corresponding whiteboard image](python/code_challenges/assets/cc_36.png)
 26. [Graph Get-Edge](python/code_challenges/get_edge/get_edge.py)
 - [Click here for the corresponding whiteboard image](python/code_challenges/assets/cc_37.png)
-
+27. [Graph Depth-First](python/code_challenges/depth_first/depth_first.py)
+- [Click here for the corresponding whiteboard image](python/code_challenges/assets/cc_38.png)
 
 
 If you have not already created your data-structures-and-algorithms repository, Please follow these steps:
